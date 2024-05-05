@@ -1,0 +1,75 @@
+<!-- fragment_scroll.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/videogames" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RPG\n\n
+En estos emocionantes títulos, te convertirás en un valiente héroe o heroína que viaja a través de tierras fantásticas, enfrentándote a desafiantes enemigos y tomando decisiones que afectarán el destino del mundo. Explora vastos paisajes, desde antiguas ruinas hasta oscuros bosques encantados, mientras te embarcas en misiones épicas para salvar reinos, desentrañar conspiraciones o descubrir antiguos tesoros. Con un sistema de progresión de personajes, podrás mejorar tus habilidades, personalizar tu equipo y formar alianzas con personajes memorables que te ayudarán en tu viaje. Sumérgete en la rica narrativa y la inmersiva jugabilidad de los juegos de rol, donde cada elección que hagas y cada batalla que libres te llevará un paso más cerca de convertirte en una leyenda." />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rpg"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FPS \n\n
+            Prepárate para una experiencia de acción intensa y adrenalina pura con los juegos FPS (First Person Shooter). En estos emocionantes títulos, te sumergirás en la piel de un valiente soldado o combatiente, enfrentándote a enemigos implacables en batallas trepidantes y llenas de acción. Equipado con una variedad de armas letales, desde rifles de asalto hasta lanzacohetes, te aventurarás en entornos peligrosos y llenos de desafíos, desde ciudades devastadas por la guerra hasta bases enemigas secretas. La jugabilidad rápida y frenética te mantendrá en vilo mientras te abres paso a tiros a través de hordas de enemigos y te enfrentas a jefes desafiantes en intensos enfrentamientos uno contra uno. Ya sea en solitario en campañas épicas para un jugador o en emocionantes partidas multijugador en línea, los juegos FPS te ofrecen la emoción de la batalla y la satisfacción de la victoria mientras te conviertes en un verdadero héroe de acción.
+\n\n"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/callof"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horror \n\n
+Sumérgete en el oscuro y perturbador mundo de los juegos de terror, donde el miedo acecha en cada sombra y cada esquina. En estos escalofriantes títulos, te enfrentarás a tus peores pesadillas mientras exploras lugares embrujados, investigas misteriosos sucesos y luchas por sobrevivir contra horrores indescriptibles. Con una atmósfera tensa y envolvente, serás arrastrado a mundos macabros llenos de criaturas sobrenaturales, monstruos grotescos y entidades malignas que harán que se te pongan los pelos de punta. Utiliza tu ingenio y tus recursos limitados para resolver enigmas y escapar de peligros mortales mientras luchas contra la locura que amenaza con consumirte. Ya sea explorando antiguas mansiones encantadas, desenterrando secretos oscuros en pueblos abandonados o huyendo de horrores innombrables en lugares remotos, los juegos de terror te desafiarán a enfrentarte a tus miedos más profundos en una experiencia inolvidable y aterradora."
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/out"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:text="Indis \n\n
+Descubre la innovación y la creatividad sin límites de los juegos indie, donde los desarrolladores independientes llevan a cabo sus visiones únicas y originales. En estos títulos, te sumergirás en experiencias fuera de lo común, desde aventuras emocionales hasta rompecabezas ingeniosos y mecánicas de juego innovadoras. Con una estética artística distintiva y una narrativa personalizada, los juegos indie te invitan a explorar mundos imaginativos y a descubrir historias emocionantes que no encontrarás en ningún otro lugar. Desde proyectos pequeños y con un presupuesto limitado hasta obras maestras aclamadas por la crítica, los juegos indie demuestran que la pasión y la creatividad pueden superar cualquier obstáculo, ofreciendo experiencias únicas y significativas que cautivarán tanto a los jugadores casuales como a los más experimentados." />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cel"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
